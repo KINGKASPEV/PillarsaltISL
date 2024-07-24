@@ -1,0 +1,100 @@
+﻿@model string
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #ffffff;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .card-content {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>API Data</h2>
+       @*  <pre>@Model</pre>  *@<!-- Debug: Show raw JSON data -->
+        <div id="api-data"></div> <!-- Target element for dynamic data -->
+    </div>
+
+    <script>
+        // Ensure Model is not null or empty
+        if (@(string.IsNullOrEmpty(Model) ? "true" : "false") === "true") {
+            document.getElementById('api-data').innerText = 'No data received from the API.';
+        } else {
+            // Try to parse the JSON data
+            let parsedData;
+            try {
+                parsedData = JSON.parse('@Html.Raw(Model)');
+            } catch (error) {
+                document.getElementById('api-data').innerText = 'Error parsing JSON data: ' + error.message;
+                console.error('JSON Parsing Error:', error);
+            }
+
+            if (parsedData && parsedData.data && Array.isArray(parsedData.data)) {
+                const apiDataContainer = document.getElementById('api-data');
+
+                parsedData.data.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.className = 'card';
+
+                    const cardTitle = document.createElement('div');
+                    cardTitle.className = 'card-title';
+                    cardTitle.textContent = `Serial Number: ${card.serialNumber}`;
+
+                    const cardContent = document.createElement('div');
+                    cardContent.className = 'card-content';
+                    cardContent.innerHTML = `
+                                <p><strong>PIN:</strong> ${card.pin}</p>
+                                <p><strong>Used:</strong> ${card.isUsed}</p>
+                            `;
+
+                    cardElement.appendChild(cardTitle);
+                    cardElement.appendChild(cardContent);
+
+                    apiDataContainer.appendChild(cardElement);
+                });
+            } else {
+                document.getElementById('api-data').innerText = 'No valid data available.';
+            }
+        }
+    </script>
+</body>
+</html>
