@@ -79,6 +79,7 @@ namespace CRUD.Application.Services.Implementations
                 };
 
                 await _repository.Add(item);
+                await _repository.SaveChangesAsync();
                 return new Response<Item>
                 {
                     StatusCode = (int)HttpStatusCode.Created,
@@ -114,6 +115,8 @@ namespace CRUD.Application.Services.Implementations
                 existingItem.Description = ItemDto.Description;
 
                 await _repository.Update(existingItem);
+                await _repository.SaveChangesAsync();
+
                 return new Response<Item>
                 {
                     StatusCode = (int)HttpStatusCode.OK,
