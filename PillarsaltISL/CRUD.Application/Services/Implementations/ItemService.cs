@@ -20,6 +20,16 @@ namespace CRUD.Application.Services.Implementations
             try
             {
                 var items = await _repository.GetAll();
+
+                if (items is null || !items.Any())
+                {
+                    return new Response<IEnumerable<Item>>
+                    {
+                        StatusCode = (int)HttpStatusCode.NotFound,
+                        Message = "No items found."
+                    };
+                }
+
                 return new Response<IEnumerable<Item>>
                 {
                     StatusCode = (int)HttpStatusCode.OK,
@@ -72,6 +82,15 @@ namespace CRUD.Application.Services.Implementations
         {
             try
             {
+                if (ItemDto is null)
+                {
+                    return new Response<Item>
+                    {
+                        StatusCode = (int)HttpStatusCode.BadRequest,
+                        Message = "Item data is required."
+                    };
+                }
+
                 var item = new Item
                 {
                     Name = ItemDto.Name,
@@ -150,6 +169,8 @@ namespace CRUD.Application.Services.Implementations
                 }
 
                 await _repository.Delete(id);
+                await _repository.SaveChangesAsync();
+
                 return new Response<string>
                 {
                     StatusCode = (int)HttpStatusCode.OK,

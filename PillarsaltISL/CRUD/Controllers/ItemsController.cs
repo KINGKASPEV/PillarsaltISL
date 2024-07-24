@@ -52,7 +52,7 @@ namespace CRUD.Controllers
         {
             var response = await _itemService.DeleteItem(id);
             if (response.StatusCode != 200) return StatusCode(response.StatusCode, response.Message);
-            return NoContent();
+            return Ok(response);
         }
     }
 }
