@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\implementations\\scratchcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\implementations\\scratchcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C66E0B8-F81F-47C0-B8D2-3CC5E4ED2CBB}|CRUD.Domain\\CRUD.Domain.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.domain\\entities\\scratchcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C66E0B8-F81F-47C0-B8D2-3CC5E4ED2CBB}|CRUD.Domain\\CRUD.Domain.csproj|solutionrelative:crud.domain\\entities\\scratchcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\implementations\\scratchcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\implementations\\scratchcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\interfaces\\iscratchcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ScratchCard.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\Entities\\ScratchCard.cs",
               "RelativeDocumentMoniker": "CRUD.Domain\\Entities\\ScratchCard.cs",
@@ -129,13 +129,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ScratchCardService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
               "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
               "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAkwC0AAAAJAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAD8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T15:36:14.653Z",
               "EditorCaption": ""
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Program.cs",
               "RelativeDocumentMoniker": "CRUD\\Program.cs",
@@ -168,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ItemDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Context\\ItemDbContext.cs",
               "RelativeDocumentMoniker": "CRUD.Persistence\\Context\\ItemDbContext.cs",
