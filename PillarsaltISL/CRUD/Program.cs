@@ -21,6 +21,7 @@ builder.Services.AddDbContext<ItemDbContext>(options =>
 
 // Register repositories
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IScratchCardService, ScratchCardService>();
 
 
 // Register services
