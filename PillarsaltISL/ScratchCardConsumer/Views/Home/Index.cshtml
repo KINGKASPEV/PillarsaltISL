@@ -50,16 +50,13 @@
 <body>
     <div class="container">
         <h2>API Data</h2>
-       @*  <pre>@Model</pre>  *@<!-- Debug: Show raw JSON data -->
-        <div id="api-data"></div> <!-- Target element for dynamic data -->
+        <div id="api-data"></div>
     </div>
 
     <script>
-        // Ensure Model is not null or empty
         if (@(string.IsNullOrEmpty(Model) ? "true" : "false") === "true") {
             document.getElementById('api-data').innerText = 'No data received from the API.';
         } else {
-            // Try to parse the JSON data
             let parsedData;
             try {
                 parsedData = JSON.parse('@Html.Raw(Model)');

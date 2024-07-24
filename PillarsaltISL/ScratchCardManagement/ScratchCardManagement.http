@@ -1,6 +1,0 @@
-@ScratchCardManagement_HostAddress = http://localhost:5034
-
-GET {{ScratchCardManagement_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
