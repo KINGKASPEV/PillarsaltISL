@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.persistence\\migrations\\20240724145056_innitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|solutionrelative:crud.persistence\\migrations\\20240724145056_innitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.persistence\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|solutionrelative:crud.persistence\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|solutionrelative:crud\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\implementations\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\implementations\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C66E0B8-F81F-47C0-B8D2-3CC5E4ED2CBB}|CRUD.Domain\\CRUD.Domain.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.domain\\crud.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C66E0B8-F81F-47C0-B8D2-3CC5E4ED2CBB}|CRUD.Domain\\CRUD.Domain.csproj|solutionrelative:crud.domain\\crud.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.persistence\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|solutionrelative:crud.persistence\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.persistence\\context\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9FB5E-2D03-4D2F-A0A5-E94FB287AFFB}|CRUD.Persistence\\CRUD.Persistence.csproj|solutionrelative:crud.persistence\\context\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|solutionrelative:crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBD08B3E-3263-4919-9A62-CAE9D4A72067}|ArraySum\\ArraySum.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\arraysum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBD08B3E-3263-4919-9A62-CAE9D4A72067}|ArraySum\\ArraySum.csproj|solutionrelative:arraysum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +71,181 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240724145056_Innitial.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Migrations\\20240724145056_Innitial.cs",
+              "RelativeDocumentMoniker": "CRUD.Persistence\\Migrations\\20240724145056_Innitial.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Migrations\\20240724145056_Innitial.cs",
+              "RelativeToolTip": "CRUD.Persistence\\Migrations\\20240724145056_Innitial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:50:57.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Program.cs",
+              "RelativeToolTip": "CRUD\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:38:59.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\DTOs\\ItemDto.cs",
+              "RelativeDocumentMoniker": "CRUD.Application\\DTOs\\ItemDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\DTOs\\ItemDto.cs",
+              "RelativeToolTip": "CRUD.Application\\DTOs\\ItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:27:37.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CRUD.Domain",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\CRUD.Domain.csproj",
+              "RelativeDocumentMoniker": "CRUD.Domain\\CRUD.Domain.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\CRUD.Domain.csproj",
+              "RelativeToolTip": "CRUD.Domain\\CRUD.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-24T14:21:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Response.cs",
+              "RelativeDocumentMoniker": "CRUD.Application\\Response.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Response.cs",
+              "RelativeToolTip": "CRUD.Application\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:21:25.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\ItemsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:13:12.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Interfaces\\IItemService.cs",
+              "RelativeDocumentMoniker": "CRUD.Application\\Services\\Interfaces\\IItemService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Interfaces\\IItemService.cs",
+              "RelativeToolTip": "CRUD.Application\\Services\\Interfaces\\IItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:10:45.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "CRUD.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "CRUD.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:00:45.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "CRUD\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\WeatherForecast.cs",
+              "RelativeToolTip": "CRUD\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:07:24.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "CRUD.Persistence\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "CRUD.Persistence\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:06:43.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAkwGIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T13:59:57.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Context\\ItemDbContext.cs",
+              "RelativeDocumentMoniker": "CRUD.Persistence\\Context\\ItemDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Context\\ItemDbContext.cs",
+              "RelativeToolTip": "CRUD.Persistence\\Context\\ItemDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:05:27.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\appsettings.json",
+              "RelativeToolTip": "CRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T13:48:42.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ArraySum\\Program.cs",
               "RelativeDocumentMoniker": "ArraySum\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ArraySum\\Program.cs",
               "RelativeToolTip": "ArraySum\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T13:34:51.475Z",
               "EditorCaption": ""
