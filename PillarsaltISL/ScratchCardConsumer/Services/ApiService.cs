@@ -1,4 +1,5 @@
 ﻿using CRUD.Application;
+using CRUD.Application.Utilities;
 using Newtonsoft.Json;
 using ScratchCardConsumer.Models;
 
@@ -12,6 +13,51 @@ namespace ScratchCardConsumer.Services
         {
             _httpClient = httpClient;
             _httpClient.BaseAddress = new Uri("https://localhost:7222");
+        }
+
+        public async Task<PaginatedResponse<IEnumerable<ScratchCardViewModel>>> GetPaginatedCardsAsync(int page, int perPage)
+        {
+            HttpResponseMessage response = await _httpClient.GetAsync($"api/scratchcard/list?page={page}&perPage={perPage}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorJson = await response.Content.ReadAsStringAsync();
+                var errorResponse = JsonConvert.DeserializeObject<Response<ScratchCardViewModel>>(errorJson);
+                return new PaginatedResponse<IEnumerable<ScratchCardViewModel>>
+                {
+                    StatusCode = errorResponse.StatusCode,
+                    Message = $"Error fetching paginated data: {errorResponse.Message}",
+                    Data = new PageResult<IEnumerable<ScratchCardViewModel>>
+                    {
+                        Data = Array.Empty<ScratchCardViewModel>(),
+                        CurrentPage = page,
+                        PerPage = perPage,
+                        TotalPageCount = 0,
+                        TotalCount = 0
+                    }
+                };
+            }
+
+            var jsonString = await response.Content.ReadAsStringAsync();
+
+            if (string.IsNullOrWhiteSpace(jsonString))
+            {
+                return new PaginatedResponse<IEnumerable<ScratchCardViewModel>>
+                {
+                    StatusCode = (int)response.StatusCode,
+                    Message = "No data available.",
+                    Data = new PageResult<IEnumerable<ScratchCardViewModel>>
+                    {
+                        Data = Array.Empty<ScratchCardViewModel>(),
+                        CurrentPage = page,
+                        PerPage = perPage,
+                        TotalPageCount = 0,
+                        TotalCount = 0
+                    }
+                };
+            }
+
+            return JsonConvert.DeserializeObject<PaginatedResponse<IEnumerable<ScratchCardViewModel>>>(jsonString);
         }
 
         public async Task<string> GetDataAsync()

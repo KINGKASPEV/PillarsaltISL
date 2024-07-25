@@ -1,60 +1,63 @@
-﻿@model string
+﻿@model PaginatedResponse<IEnumerable<ScratchCardViewModel>>
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>Scratch Cards</title>
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/custom-styles.css" />
 </head>
 <body>
     <div class="container">
         <h2>Generated Scratch Cards</h2>
-        <div id="api-data"></div>
-    </div>
 
-    <script>
-        if (@(string.IsNullOrEmpty(Model) ? "true" : "false") === "true") {
-            document.getElementById('api-data').innerText = 'No data received from the API.';
-        } else {
-            let parsedData;
-            try {
-                parsedData = JSON.parse('@Html.Raw(Model)');
-            } catch (error) {
-                document.getElementById('api-data').innerText = 'Error parsing JSON data: ' + error.message;
-                console.error('JSON Parsing Error:', error);
+        <div class="card-container">
+            @if (Model.Data.Data.Any())
+            {
+                @foreach (var card in Model.Data.Data)
+                {
+                    <div class="card">
+                        <div class="card-title">Serial Number: @card.SerialNumber</div>
+                        <div class="card-content">
+                            <p><strong>PIN:</strong> @card.Pin</p>
+                            <p><strong>Used:</strong> @card.IsUsed</p>
+                            <p><strong>Purchased:</strong> @card.IsPurchased</p>
+                        </div>
+                    </div>
+                }
             }
-
-            if (parsedData && parsedData.data && Array.isArray(parsedData.data) && parsedData.data.length > 0) {
-                const apiDataContainer = document.getElementById('api-data');
-
-                parsedData.data.forEach(card => {
-                    const cardElement = document.createElement('div');
-                    cardElement.className = 'card';
-
-                    const cardTitle = document.createElement('div');
-                    cardTitle.className = 'card-title';
-                    cardTitle.textContent = `Serial Number: ${card.serialNumber}`;
-
-                    const cardContent = document.createElement('div');
-                    cardContent.className = 'card-content';
-                    cardContent.innerHTML = `
-                                    <p><strong>PIN:</strong> ${card.pin}</p>
-                                    <p><strong>Used:</strong> ${card.isUsed}</p>
-                                    <p><strong>Purchased:</strong> ${card.isPurchased}</p>
-                                `;
-
-                    cardElement.appendChild(cardTitle);
-                    cardElement.appendChild(cardContent);
-
-                    apiDataContainer.appendChild(cardElement);
-                });
-            } else {
-                document.getElementById('api-data').innerText = 'No valid data available.';
+            else
+            {
+                <p>No cards found.</p>
             }
+        </div>
+
+        @if (Model.Data.TotalCount > Model.Data.PerPage)
+        {
+            var totalPages = (int)Math.Ceiling((double)Model.Data.TotalCount / Model.Data.PerPage);
+
+            var startPage = Math.Max(1, Model.Data.CurrentPage - 5);
+            var endPage = Math.Min(totalPages, Model.Data.CurrentPage + 5);
+
+            <div class="pagination">
+                @if (Model.Data.CurrentPage > 1)
+                {
+                    <a href="@Url.Action("Index", new { page = Model.Data.CurrentPage - 1, perPage = Model.Data.PerPage })" class="page-link">&laquo;</a>
+                }
+
+                @for (int i = startPage; i <= endPage; i++)
+                {
+                    <a href="@Url.Action("Index", new { page = i, perPage = Model.Data.PerPage })" class="page-link @(i == Model.Data.CurrentPage ? "active" : "")">@i</a>
+                }
+
+                @if (Model.Data.CurrentPage < totalPages)
+                {
+                    <a href="@Url.Action("Index", new { page = Model.Data.CurrentPage + 1, perPage = Model.Data.PerPage })" class="page-link">&raquo;</a>
+                }
+            </div>
         }
-    </script>
+    </div>
 </body>
 </html>

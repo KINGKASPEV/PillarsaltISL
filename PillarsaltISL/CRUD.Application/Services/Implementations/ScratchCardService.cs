@@ -1,4 +1,5 @@
 ﻿using CRUD.Application.Services.Interfaces;
+using CRUD.Application.Utilities;
 using CRUD.Domain.Entities;
 using CRUD.Persistence.Repositories.Interfaces;
 using System.Net;
@@ -12,6 +13,62 @@ namespace CRUD.Application.Services.Implementations
         public ScratchCardService(IGenericRepository<ScratchCard> repository)
         {
             _repository = repository;
+        }
+
+        public async Task<Response<PageResult<IEnumerable<ScratchCard>>>> ListAllCard(int page, int perPage)
+        {
+            try
+            {
+                var cards = await _repository.GetAll();
+
+                if (cards == null || !cards.Any())
+                {
+                    return new Response<PageResult<IEnumerable<ScratchCard>>>
+                    {
+                        StatusCode = (int)HttpStatusCode.NotFound,
+                        Message = "No scratch cards found.",
+                        Data = new PageResult<IEnumerable<ScratchCard>>
+                        {
+                            Data = Enumerable.Empty<ScratchCard>(), 
+                            CurrentPage = page,
+                            PerPage = perPage,
+                            TotalPageCount = 0,
+                            TotalCount = 0
+                        }
+                    };
+                }
+
+                var paginatedCards = await Pagination<ScratchCard>.GetPager(
+                    cards,
+                    perPage,
+                    page,
+                    cards => cards.SerialNumber,
+                    cards => cards.Id
+                );
+
+                return new Response<PageResult<IEnumerable<ScratchCard>>>
+                {
+                    StatusCode = (int)HttpStatusCode.OK,
+                    Message = "Scratch cards retrieved successfully.",
+                    Data = paginatedCards
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Response<PageResult<IEnumerable<ScratchCard>>>
+                {
+                    StatusCode = (int)HttpStatusCode.InternalServerError,
+                    Message = $"An error occurred while retrieving scratch cards: {ex.Message}",
+                    Data = new PageResult<IEnumerable<ScratchCard>>
+                    {
+                        Data = Enumerable.Empty<ScratchCard>(), 
+                        CurrentPage = page,
+                        PerPage = perPage,
+                        TotalPageCount = 0,
+                        TotalCount = 0
+                    }
+                };
+            }
         }
 
         public async Task<Response<IEnumerable<ScratchCard>>> ListCards()

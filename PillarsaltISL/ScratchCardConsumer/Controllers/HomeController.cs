@@ -16,10 +16,10 @@ namespace ScratchCardConsumer.Controllers
             _apiService = apiService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int perPage = 10)
         {
-            var data = await _apiService.GetDataAsync();
-            return View((object)data);
+            var data = await _apiService.GetPaginatedCardsAsync(page,perPage);
+            return View(data);
         }
 
         public IActionResult Privacy()

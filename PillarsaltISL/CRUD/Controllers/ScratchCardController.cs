@@ -28,6 +28,13 @@ namespace CRUD.Controllers
             return StatusCode(response.StatusCode, response);
         }
 
+        [HttpGet("List")]
+        public async Task<IActionResult> ListAllCards(int page, int perPage)
+        {
+            var response = await _scratchCardService.ListAllCard(page, perPage);
+            return StatusCode(response.StatusCode, response);
+        }
+
         [HttpPost("purchase")]
         public async Task<IActionResult> PurchaseCard([FromQuery] string serialNumber)
         {
