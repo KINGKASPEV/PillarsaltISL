@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -142,8 +142,8 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAADkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-25T11:03:58.108Z",
@@ -190,13 +190,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Services\\ApiService.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Services\\ApiService.cs*",
               "RelativeToolTip": "ScratchCardConsumer\\Services\\ApiService.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T16:42:25.343Z",
               "EditorCaption": ""
@@ -229,13 +229,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ScratchCardConsumer\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAwwBoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T16:42:49.974Z",
               "EditorCaption": ""
