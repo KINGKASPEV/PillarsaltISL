@@ -45,12 +45,29 @@ The system tracks the state of each scratch card with flags for whether a card i
   - Validates and marks the card with the given serial number as used if the PIN is correct.
 
 
+## Installation For those Visual Studio Users
+
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KINGKASPEV/PillarsaltISL.git
+
+
+2. Change your connection strings in the appsettings.Json
+
+
+3. Update-Database
+
+
+3. Run the program
+
+
 ## Installation For those VSCode Users
 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/scratch-card-management.git
+   git clone https://github.com/KINGKASPEV/PillarsaltISL.git
 
 
 2. cd CRUD
