@@ -1,0 +1,35 @@
+﻿@model GenerateCardsResponseViewModel
+
+<div class="container mt-5">
+    <h2>Generate Cards</h2>
+
+    <!-- Form for Generating Cards -->
+    <form asp-action="GenerateCards" method="post">
+        <div class="form-group mb-3">
+            <label for="count">Number of Cards</label>
+            <input type="number" class="form-control" id="count" name="count" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Generate</button>
+    </form>
+
+    <!-- Display Results if Available -->
+    @if (Model != null && Model.Data != null && Model.Data.Any())
+    {
+        <h2>@Model.Message</h2>
+        <div class="row mt-4">
+            @foreach (var card in Model.Data)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card ID: @card.Id</h5>
+                            <p class="card-text"><strong>Serial Number:</strong> @card.SerialNumber</p>
+                            <p class="card-text"><strong>PIN:</strong> @card.Pin</p>
+                            <p class="card-text"><strong>Is Used:</strong> @(card.IsUsed ? "Yes" : "No")</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

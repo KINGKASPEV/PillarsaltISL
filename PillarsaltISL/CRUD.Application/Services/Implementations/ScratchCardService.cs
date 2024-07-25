@@ -97,21 +97,50 @@ namespace CRUD.Application.Services.Implementations
         {
             try
             {
-                var card = (await _repository.GetAll()).FirstOrDefault(c => c.SerialNumber == serialNumber && !c.IsUsed);
-                if (card == null)
+                var card = (await _repository.GetAll()).FirstOrDefault(c => c.SerialNumber == serialNumber);
+
+                if (card is null)
                 {
                     return new Response<ScratchCard>
                     {
                         StatusCode = (int)HttpStatusCode.NotFound,
-                        Message = "Scratch card not found or already used."
+                        Message = "Scratch card not found."
                     };
                 }
+
+                if (card.IsUsed)
+                {
+                    return new Response<ScratchCard>
+                    {
+                        StatusCode = (int)HttpStatusCode.Conflict,
+                        Message = "Scratch card has already been purchased and used."
+                    };
+                }
+
+                if (card.IsPurchased)
+                {
+                    return new Response<ScratchCard>
+                    {
+                        StatusCode = (int)HttpStatusCode.Conflict,
+                        Message = "Scratch card has already been purchased."
+                    };
+                }
+
+                card.IsPurchased = true;
+                await _repository.Update(card);
+                await _repository.SaveChangesAsync();
 
                 return new Response<ScratchCard>
                 {
                     StatusCode = (int)HttpStatusCode.OK,
                     Message = "Scratch card purchased successfully.",
-                    Data = card
+                    Data = new ScratchCard
+                    {
+                        SerialNumber = card.SerialNumber,
+                        Pin = card.Pin, 
+                        IsPurchased = card.IsPurchased,
+                        IsUsed = card.IsUsed
+                    }
                 };
             }
             catch (Exception ex)
@@ -124,17 +153,46 @@ namespace CRUD.Application.Services.Implementations
             }
         }
 
+
         public async Task<Response<ScratchCard>> UseCard(string serialNumber, string pin)
         {
             try
             {
-                var card = (await _repository.GetAll()).FirstOrDefault(c => c.SerialNumber == serialNumber && c.Pin == pin && !c.IsUsed);
-                if (card == null)
+                var card = (await _repository.GetAll()).FirstOrDefault(c => c.SerialNumber == serialNumber);
+
+                if (card is null)
                 {
                     return new Response<ScratchCard>
                     {
                         StatusCode = (int)HttpStatusCode.NotFound,
-                        Message = "Scratch card not found, PIN incorrect, or card already used."
+                        Message = "Scratch card not found."
+                    };
+                }
+
+                if (card.Pin != pin)
+                {
+                    return new Response<ScratchCard>
+                    {
+                        StatusCode = (int)HttpStatusCode.BadRequest,
+                        Message = "Incorrect PIN."
+                    };
+                }
+
+                if (!card.IsPurchased)
+                {
+                    return new Response<ScratchCard>
+                    {
+                        StatusCode = (int)HttpStatusCode.Conflict,
+                        Message = "Scratch card has not been purchased yet."
+                    };
+                }
+
+                if (card.IsUsed)
+                {
+                    return new Response<ScratchCard>
+                    {
+                        StatusCode = (int)HttpStatusCode.Conflict,
+                        Message = "Scratch card has already been used."
                     };
                 }
 

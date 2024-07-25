@@ -1,0 +1,44 @@
+﻿@model ScratchCardConsumer.Models.PurchaseCardResponseViewModel
+
+<div class="container mt-5">
+    <h2>Purchase Card</h2>
+
+    <!-- Form for Purchasing a Card -->
+    <form asp-action="PurchaseCard" method="post">
+        <div class="form-group mb-3">
+            <label for="serialNumber">Serial Number</label>
+            <input type="text" class="form-control" id="serialNumber" name="serialNumber" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Purchase Card</button>
+    </form>
+
+    <!-- Display Results if Available -->
+    @if (Model != null)
+    {
+        <h2>@Model.Message</h2>
+        @if (Model.StatusCode == 200)
+        {
+            <div class="alert alert-success mt-4">
+                @Model.Message
+                @if (Model.Card != null)
+                {
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Details</h5>
+                            <p class="card-text"><strong>Serial Number:</strong> @Model.Card.SerialNumber</p>
+                            <p class="card-text"><strong>PIN:</strong> @Model.Card.Pin</p>
+                            <p class="card-text"><strong>Is Used:</strong> @(Model.Card.IsUsed ? "Yes" : "No")</p>
+                            <p class="card-text"><strong>Is Purchased:</strong> @(Model.Card.IsPurchased ? "Yes" : "No")</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger mt-4">
+                @Model.Message
+            </div>
+        }
+    }
+</div>

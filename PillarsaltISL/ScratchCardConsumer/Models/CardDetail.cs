@@ -1,11 +1,10 @@
-﻿namespace CRUD.Domain.Entities
+﻿namespace ScratchCardConsumer.Models
 {
-    public class ScratchCard
+    public class CardDetail
     {
-        public int Id { get; set; }
         public string SerialNumber { get; set; }
-        public string Pin { get; set; }
         public bool IsUsed { get; set; }
+        public string Pin { get; set; }
         public bool IsPurchased { get; set; }
     }
 }
