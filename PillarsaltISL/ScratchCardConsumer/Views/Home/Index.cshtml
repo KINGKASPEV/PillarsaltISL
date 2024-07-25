@@ -27,7 +27,7 @@
                 console.error('JSON Parsing Error:', error);
             }
 
-            if (parsedData && parsedData.data && Array.isArray(parsedData.data)) {
+            if (parsedData && parsedData.data && Array.isArray(parsedData.data) && parsedData.data.length > 0) {
                 const apiDataContainer = document.getElementById('api-data');
 
                 parsedData.data.forEach(card => {
@@ -41,10 +41,10 @@
                     const cardContent = document.createElement('div');
                     cardContent.className = 'card-content';
                     cardContent.innerHTML = `
-                                <p><strong>PIN:</strong> ${card.pin}</p>
-                                <p><strong>Used:</strong> ${card.isUsed}</p>
-                                <p><strong>Purchased:</strong> ${card.isPurchased}</p>
-                            `;
+                                    <p><strong>PIN:</strong> ${card.pin}</p>
+                                    <p><strong>Used:</strong> ${card.isUsed}</p>
+                                    <p><strong>Purchased:</strong> ${card.isPurchased}</p>
+                                `;
 
                     cardElement.appendChild(cardTitle);
                     cardElement.appendChild(cardContent);

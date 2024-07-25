@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\home\\usecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\home\\usecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\models\\carddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\models\\carddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\implementations\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\implementations\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\home\\purchasecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\home\\purchasecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\models\\carddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\models\\carddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\models\\purchasecardresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\implementations\\scratchcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\models\\generatecardsresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\models\\generatecardsresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,20 +55,8 @@
       "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\models\\usecardresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud.application\\services\\implementations\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FDBD109-1345-4934-834B-73F3788E14C3}|CRUD.Application\\CRUD.Application.csproj|solutionrelative:crud.application\\services\\implementations\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\home\\generatecards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\home\\generatecards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\scratchcardconsumer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D041AA2-8C0C-45B7-91B6-151D737AB88D}|ScratchCardConsumer\\ScratchCardConsumer.csproj|solutionrelative:scratchcardconsumer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ECCF491-6389-4788-96BD-BE2A792734A5}|CRUD\\CRUD.csproj|c:\\users\\user\\desktop\\pillarsaltisl\\pillarsaltisl\\crud\\controllers\\scratchcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,37 +134,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScratchCardService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
-              "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs*",
-              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs*",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAuwIsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T09:30:00.007Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T11:03:58.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ScratchCard.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\Entities\\ScratchCard.cs",
-              "RelativeDocumentMoniker": "CRUD.Domain\\Entities\\ScratchCard.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\Entities\\ScratchCard.cs",
-              "RelativeToolTip": "CRUD.Domain\\Entities\\ScratchCard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:06:28.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PurchaseCardResponseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\PurchaseCardResponseViewModel.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Models\\PurchaseCardResponseViewModel.cs",
@@ -181,12 +164,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CardDetail.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\CardDetail.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Models\\CardDetail.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\CardDetail.cs*",
-              "RelativeToolTip": "ScratchCardConsumer\\Models\\CardDetail.cs*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\CardDetail.cs",
+              "RelativeToolTip": "ScratchCardConsumer\\Models\\CardDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T08:49:15.236Z",
@@ -194,12 +177,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PurchaseCard.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\PurchaseCard.cshtml",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Home\\PurchaseCard.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\PurchaseCard.cshtml*",
-              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\PurchaseCard.cshtml*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\PurchaseCard.cshtml",
+              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\PurchaseCard.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAiwBwAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-25T09:20:42.615Z",
@@ -207,46 +190,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Services\\ApiService.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Services\\ApiService.cs*",
               "RelativeToolTip": "ScratchCardConsumer\\Services\\ApiService.cs*",
-              "ViewState": "AQIAADYAAAAAAAAAAAAiwGIAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T16:42:25.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T13:59:57.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T07:50:33.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UseCard.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\UseCard.cshtml",
-              "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Home\\UseCard.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\UseCard.cshtml",
-              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\UseCard.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwB8AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T08:50:21.512Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ScratchCardConsumer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ScratchCardConsumer\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:42:49.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ScratchCardConsumer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwCYAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T18:03:09.175Z",
+              "DocumentIndex": 8,
+              "Title": "ScratchCard.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\Entities\\ScratchCard.cs",
+              "RelativeDocumentMoniker": "CRUD.Domain\\Entities\\ScratchCard.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\Entities\\ScratchCard.cs",
+              "RelativeToolTip": "CRUD.Domain\\Entities\\ScratchCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:06:28.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
+              "Title": "ScratchCardService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
+              "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
+              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:30:00.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UseCardResponseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\UseCardResponseViewModel.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Models\\UseCardResponseViewModel.cs",
@@ -259,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ScratchCardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\ScratchCardViewModel.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Models\\ScratchCardViewModel.cs",
@@ -272,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GenerateCardsResponseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Models\\GenerateCardsResponseViewModel.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Models\\GenerateCardsResponseViewModel.cs",
@@ -281,45 +303,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T08:23:31.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ScratchCardConsumer\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ScratchCardConsumer\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAADgvz0AAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T16:42:49.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ScratchCardConsumer\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T07:50:33.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ItemService.cs",
-              "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ItemService.cs",
-              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T13:59:57.797Z",
               "EditorCaption": ""
             },
             {
@@ -337,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Program.cs",
               "RelativeDocumentMoniker": "CRUD\\Program.cs",
@@ -349,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\Program.cs",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\Program.cs",
@@ -361,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ScratchCardController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Controllers\\ScratchCardController.cs",
               "RelativeDocumentMoniker": "CRUD\\Controllers\\ScratchCardController.cs",
@@ -374,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
               "RelativeDocumentMoniker": "CRUD.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
@@ -387,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "ItemDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Context\\ItemDbContext.cs",
               "RelativeDocumentMoniker": "CRUD.Persistence\\Context\\ItemDbContext.cs",
@@ -400,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ScratchCardConsumer\\appsettings.json",
               "RelativeDocumentMoniker": "ScratchCardConsumer\\appsettings.json",
@@ -412,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "IScratchCardService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Interfaces\\IScratchCardService.cs",
               "RelativeDocumentMoniker": "CRUD.Application\\Services\\Interfaces\\IScratchCardService.cs",
@@ -424,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ResponseList.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\ResponseList.cs",
               "RelativeDocumentMoniker": "CRUD.Application\\ResponseList.cs",
@@ -436,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "CRUD.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Domain\\CRUD.Domain.csproj",
               "RelativeDocumentMoniker": "CRUD.Domain\\CRUD.Domain.csproj",
@@ -449,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "ItemsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "CRUD\\Controllers\\ItemsController.cs",
@@ -461,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "ItemDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\DTOs\\ItemDto.cs",
               "RelativeDocumentMoniker": "CRUD.Application\\DTOs\\ItemDto.cs",
@@ -473,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "IItemService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Interfaces\\IItemService.cs",
               "RelativeDocumentMoniker": "CRUD.Application\\Services\\Interfaces\\IItemService.cs",
@@ -485,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Repositories\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "CRUD.Persistence\\Repositories\\Interfaces\\IGenericRepository.cs",
@@ -497,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "20240724145056_Innitial.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD.Persistence\\Migrations\\20240724145056_Innitial.cs",
               "RelativeDocumentMoniker": "CRUD.Persistence\\Migrations\\20240724145056_Innitial.cs",
@@ -509,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "CRUD\\WeatherForecast.cs",
@@ -521,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\CRUD\\appsettings.json",
               "RelativeDocumentMoniker": "CRUD\\appsettings.json",
@@ -533,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PillarsaltISL\\PillarsaltISL\\ArraySum\\Program.cs",
               "RelativeDocumentMoniker": "ArraySum\\Program.cs",

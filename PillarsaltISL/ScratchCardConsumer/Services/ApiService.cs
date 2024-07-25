@@ -1,5 +1,4 @@
 ﻿using CRUD.Application;
-using CRUD.Domain.Entities;
 using Newtonsoft.Json;
 using ScratchCardConsumer.Models;
 
@@ -17,10 +16,37 @@ namespace ScratchCardConsumer.Services
 
         public async Task<string> GetDataAsync()
         {
-            HttpResponseMessage response = await _httpClient.GetAsync("api/scratchcard");
-            response.EnsureSuccessStatusCode();
+            try
+            {
+                // Send a GET request to the API
+                HttpResponseMessage response = await _httpClient.GetAsync("api/scratchcard");
 
-            return await response.Content.ReadAsStringAsync();
+                // Check if the response indicates success
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorJson = await response.Content.ReadAsStringAsync();
+                    var errorResponse = JsonConvert.DeserializeObject<Response<ScratchCardViewModel>>(errorJson);
+                    // Log or handle the error appropriately
+                    return $"Error fetching data: {errorResponse.Message}";
+                }
+
+                // Read the response content as a string
+                var jsonString = await response.Content.ReadAsStringAsync();
+
+                // Check if the response content is empty or whitespace
+                if (string.IsNullOrWhiteSpace(jsonString))
+                {
+                    // Handle empty response
+                    return "No data available.";
+                }
+
+                return jsonString;
+            }
+            catch (HttpRequestException ex)
+            {
+                // Log or handle the exception appropriately
+                return $"An error occurred while fetching data: {ex.Message}";
+            }
         }
 
 
