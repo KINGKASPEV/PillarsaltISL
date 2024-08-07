@@ -13,7 +13,7 @@
     </form>
 
     <!-- Display Results if Available -->
-    @if (Model != null && Model.Data != null && Model.Data.Any())
+    @if (Model is not null && Model.Data is not null && Model.Data.Any())
     {
         <h2>@Model.Message</h2>
         <div class="row mt-4">
@@ -26,6 +26,7 @@
                             <p class="card-text"><strong>Serial Number:</strong> @card.SerialNumber</p>
                             <p class="card-text"><strong>PIN:</strong> @card.Pin</p>
                             <p class="card-text"><strong>Is Used:</strong> @(card.IsUsed ? "Yes" : "No")</p>
+                            <p class="card-text"><strong>Is Purchased:</strong> @(card.IsPurchased ? "Yes" : "No")</p>
                         </div>
                     </div>
                 </div>

@@ -22,8 +22,10 @@
                         <div class="card-title">Serial Number: @card.SerialNumber</div>
                         <div class="card-content">
                             <p><strong>PIN:</strong> @card.Pin</p>
-                            <p><strong>Used:</strong> @card.IsUsed</p>
-                            <p><strong>Purchased:</strong> @card.IsPurchased</p>
+                            <p><strong>Is Used:</strong> @(card.IsUsed ? "Yes" : "No")</p>
+                            <p><strong>Is Purchased:</strong> @(card.IsPurchased ? "Yes" : "No")</p>
+                            @* <p><strong>Used:</strong> @card.IsUsed</p>
+                            <p><strong>Purchased:</strong> @card.IsPurchased</p> *@
                         </div>
                     </div>
                 }
