@@ -149,7 +149,6 @@ namespace CRUD.Application.Services.Implementations
             }
         }
 
-
         public async Task<Response<ScratchCard>> PurchaseCard(string serialNumber)
         {
             try
