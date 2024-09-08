@@ -146,8 +146,7 @@
               "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ItemService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T13:59:57.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T13:59:57.797Z"
             },
             {
               "$type": "Document",
@@ -215,9 +214,9 @@
               "Title": "ScratchCardService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\PROJECTS\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
               "RelativeDocumentMoniker": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PROJECTS\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs*",
-              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs*",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowFQAAAAXAAAA",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PROJECTS\\PillarsaltISL\\PillarsaltISL\\CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
+              "RelativeToolTip": "CRUD.Application\\Services\\Implementations\\ScratchCardService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwFQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T09:30:00.007Z",
               "EditorCaption": ""
